@@ -10,7 +10,7 @@
 
 ## Overview
 
-The sed command, or Stream EDitor, can be a scary command for terminal beginners, and often an underutilized command for intermediate users. The documentation is quite long, cumbersome, and composed largely of error-related docs.
+The sed command, or Stream EDitor, can be a scary command for terminal beginners, and often an underutilized command for intermediate users. The documentation is quite long, cumbersome, and composed largely of error-related comments.
 
 ---
 
