@@ -1,13 +1,14 @@
 \documentclass[12pt]{article}
 \usepackage{amsmath}
+\usepackage {xcolor}
 \title{Linux Sed Command}
 \begin{document}
 	\[
-	\Large{\underbrace{\text{kubectl config get-contexts}}_\text{1} \underbrace{\text{\textbar \: tr -s " "}}_\text{2} \underbrace{\text{\textbar \: sed -e \: "s/ /\textbackslash n/g"}}_\text{3}}
+	\Large{\underbrace{\text{\textcolor{red}{kubectl config get-contexts}}}_\text{1} \underbrace{\text{\textcolor{blue}{\textbar \: tr -s " "\textbar}}}_\text{2} \underbrace{\text{\textcolor{cyan}{\: sed -e \: "s/ /\textbackslash n/g"}}}_\text{3}}
 	\]
 	\begin{center}
-	Section 1: Program specific shell command \\ \leavevmode\newline
-	Section 2: Turns multiple spaces into one \\ \leavevmode\newline
-	Section 3: Stream string context into regex expression, replacing spaces with newlines
+	\textcolor{red}{Section 1}: Program specific shell command \\ \leavevmode\newline
+	\textcolor{blue}{Section 2:} Turns multiple spaces into one \\ \leavevmode\newline
+	\textcolor{cyan}{Section 3:} Stream string context into regex expression, replacing spaces with newlines \\
     \end{center}
 \end{document}
