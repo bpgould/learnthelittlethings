@@ -7,7 +7,8 @@
 3. [Infrastructure And Operations](#infrastructure-and-operations)
 4. [Tech Literacy](#tech-literacy)
 5. [Mathematics](#mathematics)
-6. [Resources](#resources)
+6. [Certifications](#certifications)
+7. [Resources](#resources)
 
 ---
 
@@ -28,6 +29,10 @@
 ---
 
 ## Mathematics
+
+---
+
+## Certifications
 
 ---
 
