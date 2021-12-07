@@ -26,6 +26,10 @@ Let's break this command down before moving on to more general examples.
 
 Markdown can only do so much, so here is an image I generated using LaTeX:
 
+![kubectl command anatomy](sed-diagram.png)
+
+Per the sed docs, <code>-e</code> allows one to pipe input from a shell command into pattern space. If a substitution was made, the command that is found in pattern space is executed and pattern space is replaced with its output.
+
 ---
 
 ## Resources
