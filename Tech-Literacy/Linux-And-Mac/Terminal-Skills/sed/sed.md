@@ -38,16 +38,16 @@ So, what's the catch? Like a lot of things in Linux... efficiency requires... re
 
     >As a quick note, you can also easily test these commands using a string by using the following syntax,
 
-    ><code>echo "stringOfYourChoice" | sed -&lt;flag&gt; &lt;regex expression&gt; </code>
+    ><code>$ echo "stringOfYourChoice" | sed -&lt;flag&gt; &lt;regex expression&gt; </code>
 
     <code>$ sed "s/wordtobereplaced/newword/" examplefile.txt</code>
-    - This will only replace the first occurence on each line, this is the default behavior, but not particularly helpful
+    - This will only replace the first occurrence on each line, this is the default behavior, but not particularly helpful
 
-    Want to specifically replace the 2nd occurence?
+    Want to specifically replace the 2nd occurrence?
 
     <code>$ sed "s/wordtobereplaced/newword/2" examplefile.txt</code>
 
-    Most likely, you will want to replace all occurences using
+    Most likely, you will want to replace all occurrences using
 
     <code>$ sed "s/wordtobereplaced/newword/g" examplefile.txt</code>
 
