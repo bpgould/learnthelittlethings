@@ -37,6 +37,7 @@ So, what's the catch? Like a lot of things in Linux... efficiency requires... re
 2. Find and Replace
 
     >As a quick note, you can also easily test these commands using a string by using the following syntax,
+    
     ><code>echo "stringOfYourChoice" | sed -&lt;flag&gt; &lt;regex expression&gt; </code>
 
     <code>$ sed "s/wordtobereplaced/newword/" examplefile.txt</code>
