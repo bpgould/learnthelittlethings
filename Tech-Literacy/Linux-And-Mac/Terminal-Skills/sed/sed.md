@@ -12,7 +12,7 @@
 
 The sed command, or Stream EDitor, can be a scary command for terminal beginners, and often an underutilized command for intermediate users. The documentation is quite long, cumbersome, and composed largely of error-related comments.
 
-The command is most commonly used to search, find/replace, or edit a file without the need to open it in an editor. If you thought vim was efficient - with sed you skip vim, and simply pipe the file into sed and re-format accordingly.
+The command is most commonly used to search, find/replace, or edit a file without the need to open it in an editor. If you thought vim was efficient - with sed you can skip vim, and simply pipe the output into sed and re-format accordingly.
 
 So, what's the catch? Like a lot of things in Linux... efficiency requires... regular expresssions.
 
@@ -37,7 +37,7 @@ So, what's the catch? Like a lot of things in Linux... efficiency requires... re
 2. Find and Replace
 
     >As a quick note, you can also easily test these commands using a string by using the following syntax,
-    
+
     ><code>echo "stringOfYourChoice" | sed -&lt;flag&gt; &lt;regex expression&gt; </code>
 
     <code>$ sed "s/wordtobereplaced/newword/" examplefile.txt</code>
