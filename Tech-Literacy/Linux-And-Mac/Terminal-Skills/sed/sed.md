@@ -65,14 +65,21 @@ So, what's the catch? Like a lot of things in Linux... efficiency requires... re
 
     And the reverse,
 
-    <!-- <code>$ echo -e "1    2" | sed $'s/    /\t/g'</code> -->
+    <code>$ echo -e "1    2" | sed $'s/    /\t/g'</code>
 
----
+6. Print the lines numbers of a file
 
-Change all chars to lowercase with awk: echo "UPPER" | awk '{print tolower($0)}'
+    <code>$ sed "=" examplefile.txt</code>
+
+7. What if you want to change the entire file to lowercase?
+
+    That could be done with trace, <code>tr</code>, or even sed, but this is most easily done with <code>awk</code>, another very useful command to have in your toolbox
+
+    <code>echo "UPPER" | awk '{print tolower($0)}'</code>
 
 ---
 
 ## Resources
 
-Many of these examples were inspired from [GeeksforGeeks](https://www.geeksforgeeks.org/sed-command-in-linux-unix-with-examples/)
+1. [GeeksforGeeks](https://www.geeksforgeeks.org/sed-command-in-linux-unix-with-examples/)
+2. [linuxhint](https://linuxhint.com/50_sed_command_examples/)
