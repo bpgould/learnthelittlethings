@@ -67,7 +67,7 @@ So, what's the catch? Like a lot of things in Linux... efficiency requires... re
 
     <code>$ echo -e "1    2" | sed $'s/    /\t/g'</code>
 
-6. Print the lines numbers of a file
+6. Print the line numbers of a file
 
     <code>$ sed "=" examplefile.txt</code>
 
