@@ -8,3 +8,5 @@ insert &lt;stream of consciousness&gt; here:
 - show the lt and gt trick used above in markdown blog
 - develop the idea of micro-blogging
 - get react-app-rewired file for blog
+
+# make a markdown to linkedin script, linkedin editor sucks

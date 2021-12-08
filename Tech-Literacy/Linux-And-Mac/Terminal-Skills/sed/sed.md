@@ -14,7 +14,7 @@ The sed command, or Stream EDitor, can be a scary command for terminal beginners
 
 The command is most commonly used to search, find/replace, or edit a file without the need to open it in an editor. If you thought vim was efficient - with sed you can skip vim, and simply pipe the output into sed and re-format accordingly.
 
-So, what's the catch? Like a lot of things in Linux... efficiency requires... regular expresssions.
+So, what's the catch? Like a lot of things in Linux... efficiency requires... regular expressions.
 
 ---
 
