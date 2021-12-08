@@ -75,7 +75,7 @@ So, what's the catch? Like a lot of things in Linux... efficiency requires... re
 
     That could be done with trace, <code>tr</code>, or even sed, but this is most easily done with <code>awk</code>, another very useful command to have in your toolbox
 
-    <code>echo "UPPER" | awk '{print tolower($0)}'</code>
+    <code>$ echo "UPPER" | awk '{print tolower($0)}'</code>
 
 ---
 
