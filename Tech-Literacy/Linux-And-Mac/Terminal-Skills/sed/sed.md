@@ -59,6 +59,13 @@ So, what's the catch? Like a lot of things in Linux... efficiency requires... re
 
     <code>$ sed "5d" examplefile.txt</code>
 
+5. Replace a TAB with 4 spaces
+
+    <code>$ echo -e "1\t2\t3" | sed $'s/\t/    /g'</code>
+
+    And the reverse,
+
+    <!-- <code>$ echo -e "1    2" | sed $'s/    /\t/g'</code> -->
 
 ---
 
