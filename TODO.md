@@ -10,3 +10,5 @@ insert &lt;stream of consciousness&gt; here:
 - get react-app-rewired file for blog
 
 # make a markdown to linkedin script, linkedin editor sucks
+
+test
