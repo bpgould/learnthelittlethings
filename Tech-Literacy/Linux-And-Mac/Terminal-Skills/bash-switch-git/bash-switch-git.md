@@ -3,7 +3,7 @@
 ## Table of Contents
 
 1. [Overview](#overview)
-2. [Examples](#examples)
+2. [Explanation](#explanation)
 3. [Resoureces](#resoureces)
 
 ---
@@ -26,7 +26,17 @@ So, what do we do when there is a minor inefficiency in our daily tech workflow?
 
 ---
 
-## Examples
+## Explanation
+
+Here's what I came up with - let's break it into pieces:
+
+![bash script](bashScript.png)
+
+1. shebang
+2. global variables/ parameters
+3. show me the file before the script
+4. script logic
+5. show me the file after the script
 
 ---
 
