@@ -24,11 +24,15 @@ In the article, you will see where they show the recommended config file for hav
 
 Personally, this method wasn't doing it for me because when you clone a repo with ssh, you have to remember and manually change the hostname in the url to match the hostname you used in the config file.
 
-So, what do we do when there is a minor inefficiency in our daily tech workflow? A: We severely overcomplicate the solution and spend a few hours writing a BASH script, naturally!
+So, what do we do when there is a minor inefficiency in our daily tech workflow?
+
+A: We severely overcomplicate the solution and spend a few hours writing a BASH script, naturally!
 
 ---
 
 ## Explanation
+
+Note: none of the information below must remain private, the only thing you need to keep private is the value in your ssh identity file (the private key)
 
 The script:
 
