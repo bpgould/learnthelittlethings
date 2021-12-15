@@ -10,7 +10,9 @@
 
 ## Overview
 
-So, you got your first software engineering job, and now you need to connect one laptop to two git accounts with their own ssh keys. While, there is enough documentation on this, I have still find myself spending more time than I would like setting this up, particularly if you need to connect to GitHub Enterprise with an unknown hostname(s).
+So, you got your first software engineering job, and now you need to connect one laptop to two git accounts with their own ssh keys.
+
+While, there is enough documentation on this, I still find myself spending more time than I would like setting it up, particularly if I need to connect GitHub Enterprise with an unknown hostname(s).
 
 The conventional way to fix this is to just modify the <code>config</code> file in the <code>.ssh</code> directory.
 
@@ -28,15 +30,26 @@ So, what do we do when there is a minor inefficiency in our daily tech workflow?
 
 ## Explanation
 
-Here's what I came up with - let's break it into pieces:
+The script:
 
 ![bash script](bashScript.png)
+
+The config file:
+
+![config](config.png)
+
+---
+
+Let's break this into digestible pieces:
+
+script:
 
 1. shebang
 2. global variables/ parameters
 3. show me the file before the script
 4. script logic
 5. show me the file after the script
+6. config file
 
 ---
 
