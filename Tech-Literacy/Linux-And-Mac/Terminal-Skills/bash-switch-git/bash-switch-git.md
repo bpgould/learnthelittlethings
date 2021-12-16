@@ -12,7 +12,7 @@
 
 So, you got your first software engineering job, and now you need to connect one laptop to two git accounts with their own ssh keys.
 
-While, there is enough documentation on this, I still find myself spending more time than I would like setting it up, particularly if I need to connect GitHub Enterprise with an unknown hostname(s).
+While there is enough documentation on this, I still find myself spending more time than I would like setting it up, particularly if I need to connect GitHub Enterprise with an unknown hostname(s).
 
 The conventional way to fix this is to just modify the <code>config</code> file in the <code>.ssh</code> directory.
 
@@ -77,7 +77,7 @@ Next, I check if line 3 is commented. If it is, my script assumes that line 4 (t
 
 Next, we enter the two control blocks, both having the same structure. The logic flow goes: remove the comment from the line that is currently commented out -> comment out the other line -> remove the keys from memory -> add the new, uncommented key to ssh memory.
 
-If you are interesting in learning more about the <code>sed</code> command I posted an article [here](https://www.linkedin.com/pulse/perfectionists-need-learn-sed-bennett-gould/).
+If you are interested in learning more about the <code>sed</code> command I posted an article [here](https://www.linkedin.com/pulse/perfectionists-need-learn-sed-bennett-gould/).
 
 <code>fi</code> is just the funny BASH syntax for the end of an if statement - I personally like the symmetry.
 
