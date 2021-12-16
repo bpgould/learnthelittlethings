@@ -98,3 +98,5 @@ I included the config file for reference so that you could see line 3 and 4, as 
 shebang: https://en.wikipedia.org/wiki/Shebang_(Unix) - thanks for the url encoding problem, Wikipedia (don't put parenthesis in urls)
 
 [run a bash script](https://ss64.com/osx/syntax-shellscript.html)
+
+[multiple git accounts with ssh keys](https://www.freecodecamp.org/news/manage-multiple-github-accounts-the-ssh-way-2dadc30ccaca/)
